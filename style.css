@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*REM=Root EM. Unidade de medida relativa para funcionar no mobile*/
+
+:root{
+    /*vai pegar o pixel padrão do navegador sendo 1REM= padrão*/ 
+    font-size: 62.5%; /*padrão x 0,625=10px no caso do padrão ser 16px*/
+}
+body{
+    background: #ece9fd;
+
+    padding: 6.0rem 2.3rem 6.6rem;
+    /*60px cima 23px baixo 66px laterais*//*-> px foi trocado por rem para ficar responsivo.
+    tudo dividido pelo resultado da conta acima */
+    
+    font-family: 'Epilogue';
+
+    font-size: 1.6rem;
+}
+
+main{
+    max-width: 33.0rem;/*largura máxima*/
+    margin: 0 auto; /*alinhar no meio da tela*/
+
+}
+
+main p:first-child{ /*sudo class first-child diz que é o primeiro desse elemento*/
+    color: #7158ef;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    line-height: 3.2rem;
+    
+    margin-bottom: 1.7rem;
+}
+
+h1{
+    margin-top: 4.0rem;
+    font-size: 4.8rem;
+    font-weight: 800;
+
+    color: #090039;
+
+    margin-bottom: 1.5rem;
+}
+
+
+
+h1 + p{
+    color: rgba(10, 0, 57, 0.64);
+    line-height: 3.2rem;
+    
+    margin-bottom: 3.2rem;
+}
+a{
+    color: #090039;
+    text-decoration: none;
+}
+a:hover{
+    color: #090039b3;
+    font-weight: bold;
+    
+}
+
+ul {
+    list-style: none; /*list-style:none tira a bolinha da lista*/
+}
+ul{
+    margin-top: 7.2rem;
+    
+}
+
+ul li{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color:  #090039;
+
+    max-width: 25.7rem; /*o maximo que os elementos vão poder ir no mobile*/
+
+    display: flex;
+    /*align-items: flex-start;vai fazer o texto começar no inicio da caixa*/
+    gap: 3.8rem;
+}
+
+ul li span{
+    font-weight: 800;
+    font-size: 7.2rem;
+    line-height: 8.0rem;
+    letter-spacing: -2px;
+    
+    color:  #090039;
+}
+ul li + li{
+    margin-top: 3.2rem;
+}
+
+/*media queries -> é a adaptação para outro dispositivo, vc vai determinar
+o tamanho do dispositivo. Vc determina que ao alcançar determinado tamanho
+vai puxar o que vc colocar dentro do media querie*/
+@media (min-width: 700px)/*de min Xpx em diante aplica ou de max Xpx pra baixo aplica*/
+{
+    body{
+        padding: 8rem;
+    }
+    main{
+        max-width: 1020px;/*aqui diz o maximo q ele pode "esticar/crescer"*/
+        display: flex;
+        gap: 10rem;
+        /*background-color: rgb(8, 37, 62);*/
+    }
+
+    main > div{
+        max-width: 484px; /*a primeira div não vai esticar mais que 484px*/
+        
+    }
+
+    ul li{ 
+        gap:  5.3rem; /*espaço de uma li a outra*/
+        max-width: 450px; /*só se esticará ate 450px*/
+        align-items: center; /*alinhando no centro da linha*/
+    }
+    ul li + li{ /*para uma li abaixo da outra*/
+        margin-top: 3.2rem;
+    }
+}   

@@ -3,7 +3,8 @@
 Responsividade
 </h1>
 
-<p align="center">Uma página simples, funcional para desktop e mobile. Utilizando a técnica Mobile First. Tudo com responsividade</p>
+<p align="center">Uma página simples, funcional para desktop e mobile. Utilizando a técnica Mobile First. Tudo com responsividade </br>
+A simple, functional page for desktop and mobile. Using the Mobile First technique. everything with responsiveness</p></br>
 
 
 [//]: # (Add your gifs/images here:)

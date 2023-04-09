@@ -1,7 +1,20 @@
-# Estudo-Responsividade
+<h1 align="center">
 
-Neste estudo, fiz uma página que funcione tanto em Mobile quanto em Desktop.
+Responsividade
+</h1>
 
-Utilizando a técnica Mobile First, fiz primeiro o front para a versão mobile. E após finalizado, fiz o css funcionar para versão Desktop.
+<p align="center">Uma página simples, </p>
 
-Foi utilizado unidade de medida flexível -> rem = Root EM. Para deixar de forma responsiva.
+
+[//]: # (Add your gifs/images here:)
+<div>
+  <img src="https://imgur.com/7BlD9Zq" alt="demo" height="425">
+</div>
+
+<hr />
+
+## Features
+[//]: # (Add the features of your project here:)
+This app features all the latest tools and practices in mobile development!
+
+- ⚛️ **React Js** — A JavaScript library for building user interfaces

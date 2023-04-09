@@ -3,14 +3,14 @@
 Responsividade
 </h1>
 
-<p align="center">Uma página simples, </p>
+<p align="center">Uma página simples, funcional para desktop e mobile. Utilizando a técnica Mobile First. Tudo com responsividade</p>
 
 
 [//]: # (Add your gifs/images here:)
 <div>
  
-    <blockquote class="imgur-embed-pub" lang="en" data-id="a/PBlsPKZ" data-context="false" ><a href="//imgur.com/a/PBlsPKZ"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-           
+ <p align="center" style="font-size=20px"> Look at video on tab Issues!</p>
+ 
 </div>
 
 <hr />
@@ -19,4 +19,5 @@ Responsividade
 [//]: # (Add the features of your project here:)
 This app features all the latest tools and practices in mobile development!
 
-- ⚛️ **React Js** — A JavaScript library for building user interfaces
+- ⚛️ **HTML** — The HyperText Markup Language  
+- ⚛️ **CSS** — Cascading Style Sheets, the mecanism to add styles on my code.

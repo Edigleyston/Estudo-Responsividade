@@ -9,9 +9,8 @@ Responsividade
 [//]: # (Add your gifs/images here:)
 <div>
  
-    <img style="height="425";" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
+    <img style="height="425";" src="https://i.imgur.com/Wzik135.mp4" alt="demo" />
            
-    <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/sSxz3W3aFj9/embed" width="640" height="360"></iframe>
 </div>
 
 <hr />

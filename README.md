@@ -7,7 +7,7 @@ Responsividade
 
 
 [//]: # (Add your gifs/images here:)
-<div style="position:relative;width:fit-content;height:fit-content;">
+<div>
  
     <img style="height="425";" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
            
